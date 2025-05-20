@@ -13,14 +13,15 @@ function multiply(num) {
 return  x = x *num;
 }
 
-function modYBy() {
-  return y /= 5
+function modYBy(num) {
+  return y = y % num
 }
 function opposite(num) {
   return z = -num
 }
 function makeFullName(lastName) {
    name = name + " " + lastName;
+   
 }
 function yellAt(name) {
   return greeting = "HEY, "  + name + "!"
